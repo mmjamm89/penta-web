@@ -1,0 +1,16 @@
+@import 'variables';
+
+.main{
+    width: 100vw;
+    min-width: 1000px;
+    height: 100vh;
+    min-height: 900px;
+
+    background-color:$color-main;
+
+    font-family: $font-main;    
+
+    display: grid;
+    grid-template-rows: 13% 82% 5%;
+    
+}
